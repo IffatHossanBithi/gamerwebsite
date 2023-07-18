@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+font-family: 'Work Sans', sans-serif;
+}
+/* Nav Design */
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    display: flex;
+    max-width: 1000px;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+.logo-container img{
+    width: 70px;
+    height: 35px;   
+}
+.logo-container p{
+    font-size: 35px;
+    font-weight: 700;
+}
+.game{
+    color: #FF42A5;
+}
+
+.nav-item-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item-container a{
+    text-decoration: none;
+    color:  #3C354F;
+    font-weight: 500;
+    font-size: 12px;
+}
+.click-btn{
+    padding:5px 20px ;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    color: red;
+    
+}
+ .fa-youtube{
+    color:red;
+ }
+ .fa-tiktok{
+    color:color-mix( #08FFF9 25%, #F00044 25% ,#000000 50%);
+ }
