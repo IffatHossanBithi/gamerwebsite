@@ -212,3 +212,12 @@ font-weight: 400;
     bottom:200px ;
     height: 250px;
    }
+   .games-type-img{
+      display: flex;
+      align-items: center;
+     gap: 15px;
+   }
+.games-type{
+   display: grid;
+   grid-template-columns: repeat(5);
+}
