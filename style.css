@@ -3,6 +3,7 @@
 }
 body{
 font-family: 'Work Sans', sans-serif;
+font-style: normal;
 }
 /* Nav Design */
 nav{
@@ -49,13 +50,54 @@ nav{
 .click-btn{
     padding:5px 20px ;
     border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    color: red;
-    
+    background: rgba(11, 2, 35, 0.10); 
 }
- .fa-youtube{
-    color:red;
+.click-btn .icon{
+  width: 20px;
+  height: 10px;
  }
- .fa-tiktok{
-    color:color-mix( #08FFF9 25%, #F00044 25% ,#000000 50%);
+
+
+ /*start banner section */
+ main{
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+ .banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ .banner-text{
+   gap: 20px;
+ }
+ .banner-title{
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+ .banner-designed-text{
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .banner-content p{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: lowercase; 
+ }
+ .icon-text{
+    display: flex;
+    gap: 5px;
+ }
+ .banner-img{
+    width: 500px;
+    height: 400px;
  }
