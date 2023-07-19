@@ -9,6 +9,7 @@ font-style: normal;
 nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
 }
 .nav-container{
     display: flex;
@@ -46,6 +47,7 @@ nav{
     color:  #3C354F;
     font-weight: 500;
     font-size: 12px;
+    margin-left: 40px;
 }
 .click-btn{
     padding:5px 20px ;
@@ -67,12 +69,16 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+ } 
+.banner-content{
+  
+    width: 50%;
+    
+}
 
- }
- .banner-text{
-   gap: 20px;
- }
+
  .banner-title{
+    margin-bottom:-40px;
     color: #0B0223;
     font-size: 30px;
     font-weight: 600;
@@ -86,6 +92,7 @@ nav{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
  }
  .banner-content p{
     color: #534C64;
@@ -97,7 +104,111 @@ nav{
     display: flex;
     gap: 5px;
  }
+
  .banner-img{
     width: 500px;
-    height: 400px;
+    height: 500px;
  }
+ .btn-primary{
+    display: inline-flex;
+    padding: 12px 30px;
+    border-color:#FFFFFF;
+    gap: 10px;
+    border-radius: 48px;;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+ .btn-primary2{
+    padding: 12px 30px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border-color:#FFFFFF;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+ /* start funny video design */
+ .funny-video{
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+ .funny-video-content{
+    text-align: center;
+ }
+ h2{
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;
+ }
+
+ h6{
+color: #534C64;
+font-size: 12px;
+font-weight: 400;
+ }
+ h2 .span-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .funny-video-img{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+ }
+ .funny-video-img img{
+    width: 235px;
+    height: 270px;
+ }
+ .funny-video-block{
+    display: block;
+    font-size: 15px;
+    color: #534C64;
+    font-weight: 500;
+ }
+ .funny-video-block .hover-img:hover{
+    
+ }
+ /* start play instant design */
+ .play-instant{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-between ;
+    
+ }
+ .play-instant-content{
+   margin-top: 120px;
+   margin-left: 130px;
+    text-align: right;
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;
+ 
+}
+ .play-instant-content  p{
+    color: #534C64;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  
+ }
+ .play-instant-img img{
+   width: 460px;
+   height: 480px;
+   margin-bottom: 10px;
+ }
+ .play-instant-img2 img{
+    width: 220px;
+    position: relative;
+    right: 110px;
+    bottom:200px ;
+    height: 250px;
+   }
