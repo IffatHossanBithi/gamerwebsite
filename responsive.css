@@ -1,10 +1,26 @@
-@media screen and (max-width:576px) {
- .nav-container{
+@media screen and (max-width:425px) {
+ 
+    .nav-container,.nav-item-container{
     flex-direction: column;
-    padding:0px 200px;
- }
- .nav-item-container{
-    flex-direction: column;
- }
-   
+    padding: 0px;
+    align-items: center;
+     }
+    .nav-item-container a{
+     margin-top: 40px;
+     margin-right: 30px;
+    }
+  .banner-section{
+   flex-wrap: wrap-reverse;
+  }
+  .banner-img{
+    width:300px;
+    height: 300px;
+    margin-left: 50px;
+ background: none;
+  }
+  .banner-content{
+    padding: 0px;
+  }
+
+
 }
